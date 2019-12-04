@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Student implements Students {
     private int grade = new Random().nextInt(4) + 2;
-    private int course;
+    private int course = new Random().nextInt(4) + 1;
     private String name;
 
     @Override
@@ -18,7 +18,7 @@ public class Student implements Students {
 
     @Override
     public void say() {
-        System.out.println("Привет! Меня зовут " + name + ".");
+        System.out.println("Привет! Меня зовут " + name + ". Я учусь на " + course + " курсе." );
 
     }
 
