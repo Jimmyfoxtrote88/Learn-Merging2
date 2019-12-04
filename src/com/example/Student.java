@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Student implements Students {
     private int grade = new Random().nextInt(4) + 2;
-    private int course = new Random().nextInt(4) + 1;
+    private int course = new Random().nextInt(5) + 1;
     private String name;
 
     @Override
