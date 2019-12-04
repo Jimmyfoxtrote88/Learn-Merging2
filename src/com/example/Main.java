@@ -6,9 +6,9 @@ public class Main {
 
         University un = new University();
 
-        un.addStudent(new Student1("Максим"));
-        un.addStudent(new Student2("Андрей"));
-        un.addStudent(new Student3("Света"));
+        un.addStudent(new Student("Максим"));
+        un.addStudent(new Student("Андрей"));
+        un.addStudent(new Student("Света"));
 
         System.out.println(un.passExamination());
 
