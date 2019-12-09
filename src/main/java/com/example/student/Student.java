@@ -21,13 +21,13 @@ public class Student implements iStudent {
 
     @Override
     public void say() {
-        System.out.println("Привет! Меня зовут " + name + ". Я учусь на " + course + " курсе." );
+        System.out.println("Привет! Меня зовут " + name + ". Я учусь на " + course + " курсе.");
 
     }
 
     @Override
     public Result passExam() {
-        Result mark =  new Mark(grade);
+        Result mark = new Mark(grade);
         return mark;
     }
 }
