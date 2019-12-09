@@ -1,5 +1,8 @@
 package com.example;
 
+import main.java.com.example.result.Result;
+import main.java.com.example.student.Student;
+
 import java.util.ArrayList;
 import java.util.List;
 

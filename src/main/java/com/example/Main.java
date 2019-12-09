@@ -1,10 +1,12 @@
 package com.example;
 
+import main.java.com.example.student.Student;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        University un = new University();
+        com.example.University un = new com.example.University();
 
         un.addStudent(new Student("Максим"));
         un.addStudent(new Student("Андрей"));

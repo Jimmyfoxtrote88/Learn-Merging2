@@ -1,5 +1,8 @@
 package main.java.com.example.student;
 
+import main.java.com.example.result.Mark;
+import main.java.com.example.result.Result;
+
 import java.util.Random;
 
 public class Student implements iStudent {
