@@ -28,12 +28,9 @@ public class University {
         for (Student student : studentList) {
             Result result = student.passExam();
             System.out.println(student + " сдал экзамен на " + result);
-            //  если хранилище не содержит зхаписи об этом студенте
             if (results.get(result.getClass().getSimpleName()) == null) {
-                //добавляем его оценку
                 results.put(result.getClass().getSimpleName(), result.getValue());
             } else {
-                // здесь добавляюстся оценки, если уже есть в хранилище
                 final Integer value = results.get(result.getClass().getSimpleName());
                 results.put(result.getClass().getSimpleName(), value + result.getValue());
             }
