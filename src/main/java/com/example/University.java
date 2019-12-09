@@ -17,6 +17,13 @@ public class University {
         student.say();
     }
 
+
+    /**
+     * собираем со всех студентов оценки в виде мапы (ассоциированный массив)
+     *
+     * @return Map<String   ,       Integer> -- тип оценкии и её значение
+     */
+
     public List<Result> passExamination() {
         Map<String, Integer> results = new HashMap<String, Integer>();
         for (Student student : studentList) {
