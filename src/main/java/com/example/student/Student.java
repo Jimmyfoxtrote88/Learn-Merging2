@@ -1,8 +1,8 @@
-package com.example;
+package main.java.com.example.student;
 
 import java.util.Random;
 
-public class Student implements Students {
+public class Student implements iStudent {
     private int grade = new Random().nextInt(4) + 2;
     private int course = new Random().nextInt(5) + 1;
     private String name;
@@ -24,7 +24,7 @@ public class Student implements Students {
 
     @Override
     public Result passExam() {
-        Result ocenka =  new Ocenka(grade);
-        return ocenka;
+        Result mark =  new Mark(grade);
+        return mark;
     }
 }

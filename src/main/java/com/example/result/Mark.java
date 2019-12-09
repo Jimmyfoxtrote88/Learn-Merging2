@@ -1,9 +1,9 @@
-package com.example;
+package main.java.com.example.result;
 
-public class Ocenka implements Result {
+public class Mark implements Result {
     private int grade;
 
-    public Ocenka(int grade) {
+    public Mark(int grade) {
         this.grade = grade;
     }
 
