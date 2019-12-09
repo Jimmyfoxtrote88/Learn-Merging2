@@ -11,4 +11,9 @@ public class Mark implements Result {
     public String toString() {
         return "" + grade;
     }
+
+    @Override
+    public int getValue() {
+        return grade;
+    }
 }
